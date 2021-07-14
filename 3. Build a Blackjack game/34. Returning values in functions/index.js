@@ -12,12 +12,16 @@ function getFastestRaceTime() {
     }
 }
 
-// let fastestRace = getFastestRaceTime()
-// console.log(fastestRace)
+let fastestRace = getFastestRaceTime()
+console.log(fastestRace)
 
 // Write a function that returns the total race time
+function getTotalRaceTime() {
+    return player1Time + player2Time
+}
 // Call/invoke the function and store the returned value in a new variable
+let totalTime = getTotalRaceTime()
 // Finally, log the variable out
-
+console.log(totalTime)
 
 
