@@ -1,10 +1,10 @@
-// const credits = 0
+const credits = ""
 
-// if (credits) {
-//     console.log("Let's play 🎰")
-// } else {
-//     console.log("Sorry, you have no credits 😭")
-// }
+if (credits) {
+    console.log("Let's play 🎰")
+} else {
+    console.log("Sorry, you have no credits 😭")
+}
 
 // truthy
 // falsy
